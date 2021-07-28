@@ -1,0 +1,204 @@
+@import url("https://use.fontawesome.com/releases/v5.2.0/css/all.css");
+@import url('https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC');
+@import url('https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/css/bulma-carousel.min.css');
+
+
+
+body{
+    background: #0a0a0a
+}
+
+.searchPane.noOverFlow{
+    overflow: hidden !important;
+}
+
+.topNav.modalUp{
+    z-index: unset !important;
+}
+
+html{
+    overflow: auto;
+    font-size: 16px
+}
+
+.hideMe{
+    display: none !important
+}
+
+.topNav .marginMe{
+    margin: 0 5px
+}
+
+.Me *:not(.favs) {
+    cursor: context-menu !important
+}
+.itemBox:not(:last-child){
+    border-bottom: solid gray 2px
+}
+
+.movieBox h1 {
+    font-size:23px !important;
+    min-height:63px;
+}
+
+.movieBox h2 {
+    font-size:20px !important;
+}
+
+.movieBox h1, .movieBox h2 {
+   text-align: center;
+}
+
+.movieBox:not(:last-child){
+    border-bottom: solid gray 2px
+}
+
+.itemBox:hover .favs{
+    display: block !important;
+}
+
+.movieBox:hover .favs{
+    display: block !important;
+}
+
+.searchPane {
+    width: 100%;
+    display:none !important;
+}
+
+.searchPane.active .itemBox{
+    margin-left: 4rem;
+    margin-right: 4rem
+}
+
+.searchPane.active .movieBox{
+    margin-left: 4rem;
+    margin-right: 4rem
+}
+
+.itemBox:first-child{
+    margin-top: 6rem !important
+}
+
+.movieBox:first-child{
+    margin-top: 30px !important
+}
+
+.searchPane.active{
+    display: block !important;
+    width: 100% !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.searchStatus.active{
+    display: none !important;
+}
+
+.topNav{
+    z-index: 2;
+    display:block !important;
+}
+
+.intro-animated{
+    -webkit-animation: pulse 3.2s forwards infinite ease-in-out;
+    animation: pulse 3.2s forwards infinite ease-in-out
+}
+
+.monoton-font{
+    font-family: 'Playfair Display SC', serif;
+}
+
+.rec.rec-arrow {
+   background: none;
+   outline: none;
+   color: #fff;
+   box-shadow: none;
+}
+
+.rec.rec-arrow:hover, .rec.rec-arrow:hover:enabled, .rec.rec-arrow:focus:enabled{
+    background: none;
+    outline: none;
+    color: #E50914;
+ }
+
+ .titles-container {
+    position: absolute !important;
+    left: 0;
+    top: 237px;
+    right: 0;
+    background: rgba(0,0,0,.3);
+    width: 600px !important;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 5px;
+ }
+
+ .navbar {
+     background: none;
+ }
+
+@media all and (max-width: 1366px) {
+    .movieBox h1 {
+        font-size:18px !important;
+
+    }
+    .movieBox h2 {
+        font-size:14px !important;
+        
+    }
+}
+
+@media all and (max-width: 769px){
+    html{
+        overflow-y: auto !important
+    }
+
+    .shower {
+        height: 680px !important;
+    }
+
+    .shower, .titles-container{
+        width: 100% !important;
+        top: 130px;
+    }
+
+    .searchPane.active .itemBox{
+        margin-left: 1rem;
+        margin-right: 1rem
+    }
+
+    .searchPane.active .movieBox{
+        margin-left: 1rem;
+        margin-right: 1rem
+    }
+
+    .itemBox:not(.Me){
+        margin: 0.5rem 2rem
+    }
+
+    .movieBox:not(.Me){
+        margin: 0.5rem 2rem
+    }
+
+    .itemBox .favs{
+        display: block !important;
+        -webkit-animation: unset !important;
+        animation: unset !important;
+    }
+
+    .movieBox .favs{
+        display: block !important;
+        -webkit-animation: unset !important;
+        animation: unset !important;
+    }
+}
+
+@media all and (max-width: 480px){
+    .modal img{
+        min-width: 100% !important
+    }
+}

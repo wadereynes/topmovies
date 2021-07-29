@@ -1,0 +1,87 @@
+.itemBox:not(:last-child){
+    border-bottom: solid gray 2px
+}
+
+.movieBox {
+	&:note(:last-child) {
+	border-bottom: solid gray 2px;
+    }
+
+    h1 {
+    font-size:23px;
+    min-height:63px;
+    }
+
+    h2 {
+    font-size:20px;
+    }
+
+    h1,h2{
+    text-align: center;
+    }
+	
+}
+
+.favs{
+    position: absolute;
+    bottom: 0.5rem;
+    right: 0.5rem;
+    display: none;
+  }
+
+.movieBox:hover {
+    .favs{
+        display: block;
+    }
+}
+
+.searchPane {
+    width: 100%;
+    display:none;
+}
+
+.searchPane.active {
+    .itemBox{
+        margin-left: 4rem;
+        margin-right: 4rem
+    }
+
+    .movieBox{
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+}
+
+
+.itemBox:first-child{
+    margin-top: 6rem;
+}
+
+.movieBox:first-child{
+    margin-top: 30px;
+}
+
+.searchPane.active{
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.searchStatus.active{
+    display: none;
+}
+
+.rec.rec-arrow {
+    background: none;
+    outline: none;
+    color: #fff;
+    box-shadow: none;
+ }
+ 
+ .rec.rec-arrow:hover, .rec.rec-arrow:hover:enabled, .rec.rec-arrow:focus:enabled{
+     background: none;
+     outline: none;
+     color: #E50914;
+  }

@@ -13,7 +13,6 @@ topmovies
 |--src
 |  |--assets
 |  |  |--img
-|  |  |--css
 |  |  |--js
 |  |  |--sass
 |  |--views

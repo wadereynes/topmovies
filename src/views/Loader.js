@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Container from "./Container"
-import "../assets/css/Loader.css"
+import "../assets/sass/_loader.scss"
 const request = require("request")
 
 class Loader extends Component {

@@ -41,7 +41,7 @@ class Item extends Component{
 
         <div style={styles.box} className="movieBox">
         <h1 onClick={_=>props.showModal(props.title,  props.cover, props.href, props.movieId, props.price, props.releaseDate, props.summary)} 
-        className="subtitle is-size-4-mobile has-text-weight-normal has-text-grey is-size-3-tablet" style={styles.boxTitle}>
+        className="subtitle  has-text-weight-normal has-text-grey " style={styles.boxTitle}>
           #{1*props.pos + 1} - {props.name}
         </h1>
         <h2 className="subtitle" style={{marginBottom: "0 !important"}}>

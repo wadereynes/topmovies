@@ -1,0 +1,26 @@
+.searchPane.noOverFlow{
+    overflow: hidden;
+}
+
+.topNav.modalUp{
+    z-index: unset;
+}
+
+.topNav {
+    .marginMe{
+        margin: 0 5px
+    }
+}
+
+.topNav{
+    z-index: 2;
+    display:block;
+}
+
+.monoton-font{
+    font-family: 'Playfair Display SC', serif;
+}
+
+.navbar {
+    background: none;
+}

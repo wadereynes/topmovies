@@ -80,7 +80,7 @@ class Container extends Component {
               <h1 className="subtitle is-1 has-text-light has-text-centered monoton-font" style={{marginBottom: 0,...styles.fadeIn}}>
                 TOP<span style={styles.entranceText}><span style={styles.orangeOne} className="has-text-danger"> 100 Movies </span></span>ITUNES
               </h1>
-              <h2 className="intro-animated has-text-white">
+              <h2 className="intro-animated has-text-white samplewade">
                 Stream now!
               </h2>
             </div>

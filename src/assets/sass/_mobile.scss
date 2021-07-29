@@ -1,0 +1,78 @@
+@media all and (max-width: 1366px) {
+
+    .movieBox{
+        h1 {
+            font-size:18px;
+        }
+
+        h2 {
+            font-size:14px;
+        }
+    }
+}
+
+@media all and (max-width: 769px){
+    html{
+        overflow-y: auto;
+    }
+
+    .shower, .titles-container{
+        width: 100%;
+        top: 8%;
+    }
+
+    .shower {
+        height: 622px;
+    }
+
+    .titles-container {
+        width: 100%;
+    }
+
+    .searchPane.active {
+        .itemBox{
+            margin-left: 1rem;
+            margin-right: 1rem
+        }
+        .movieBox{
+            margin-left: 1rem;
+            margin-right: 1rem
+        }
+    }
+
+    .itemBox:not(.Me){
+        margin: 0.5rem 2rem
+    }
+
+    .movieBox:not(.Me){
+        margin: 0.5rem 2rem
+    }
+
+    .itemBox {
+        .favs{
+            display: block;
+            -webkit-animation: unset;
+            animation: unset;
+        }
+    }
+
+    .movieBox {
+        .favs{
+            display: block;
+            -webkit-animation: unset;
+            animation: unset;
+        }
+    }
+
+    .itemBox:first-child {
+        margin-top: 6rem;
+    }
+}
+
+@media all and (max-width: 480px){
+    .modal {
+        img{
+            min-width: 100%;
+        }
+    }
+}

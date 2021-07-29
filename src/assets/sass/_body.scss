@@ -1,0 +1,51 @@
+body{
+    background: #0a0a0a
+}
+
+html{
+    overflow: auto;
+    font-size: 16px
+}
+
+.hideMe{
+    display: none;
+}
+
+.Me *:not(.favs) {
+    cursor: context-menu;
+}
+
+.itemBox:hover {
+    .favs{
+        display: block;
+    }
+}
+
+.intro-animated{
+    -webkit-animation: pulse 3.2s forwards infinite ease-in-out;
+    animation: pulse 3.2s forwards infinite ease-in-out;
+    text-align: center;
+}
+
+.titles-container {
+    position: absolute;
+    left: 0;
+    top: 16%;
+    right: 0;
+    background: rgba(0,0,0,.3);
+    width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 5px;
+ }
+
+ .shower{
+    position: relative;
+    top: -6px;
+    left: 0;
+    width: 100%;
+    height: 800px;
+    background-size:100%;
+    background-position: bottom center;
+    background-repeat:no-repeat;
+  }

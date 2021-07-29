@@ -10,11 +10,8 @@ const styles  = {
     width:'100%',
   },
   flexy:{
-    position: "relative",
-    display: "flex",
     alignItems: "center",
     justifyContent: "center",
-    width:'100%',
   },
   topNav:{
     position: "absolute",
@@ -37,22 +34,8 @@ const styles  = {
   mainlogo: {
     fontSize: '35px',
   },
-  favs:{
-    position: "absolute",
-    bottom: "0.5rem",
-    right: "0.5rem",
-    display: "none"
-  },
-  shower:{
-    position: "relative",
-    top: '-6px',
-    left: 0,
-    width: "100%",
-    height: "800px",
-    backgroundSize:"100%", 
-    backgroundPosition: "bottom center",
-    backgroundRepeat:'no-repeat',
-  },
+
+
   orangeOne:{
     fontFamily: "1rem !important",
     fontSize: "2.5rem",

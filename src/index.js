@@ -4,7 +4,7 @@ import Loader from "./views/Loader"
 import logo from "./assets/img/logo.svg"
 import registerServiceWorker from './registerServiceWorker'
 import "./cookies"
-import "./assets/css/index.css"
+import "./assets/sass/index.scss"
 
 window.onload =_=>ReactDOM.render(<Loader logo={logo}/>, document.getElementById('root'))
 registerServiceWorker()

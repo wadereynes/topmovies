@@ -5,6 +5,7 @@ import LeftPane from "./LeftPane"
 import Favs from "./Favs"
 import Background from "./Background"
 import MovieCarousel from './MovieCarousel'
+import Footer from './Footer'
 
 
 class Container extends Component {
@@ -103,7 +104,7 @@ class Container extends Component {
                 showFavs={this.showFavs}
                 bindFavs={this.bindFavs}/> : null}
                 
-    
+                <Footer/>
                 
                
       </div>

@@ -30,43 +30,25 @@
     }
 
     .searchPane.active {
-        .itemBox{
-            margin-left: 1rem;
-            margin-right: 1rem
+        .itemBox, .movieBox {
+          margin-left: 1rem;
+          margin-right: 1rem;
         }
-        .movieBox{
-            margin-left: 1rem;
-            margin-right: 1rem
-        }
-    }
+      }
 
-    .itemBox:not(.Me){
-        margin: 0.5rem 2rem
-    }
+      .itemBox:not(.Me), .movieBox:not(.Me) {
+        margin: 0.5rem 2rem;
+      }
 
-    .movieBox:not(.Me){
-        margin: 0.5rem 2rem
-    }
-
-    .itemBox {
-        .favs{
-            display: block;
-            -webkit-animation: unset;
-            animation: unset;
-        }
-    }
-
-    .movieBox {
-        .favs{
-            display: block;
-            -webkit-animation: unset;
-            animation: unset;
-        }
-    }
-
-    .itemBox:first-child {
+      .itemBox .favs, .movieBox .favs {
+        display: block !important;
+        -webkit-animation: unset !important;
+        animation: unset !important;
+      }
+      
+      .itemBox:first-child {
         margin-top: 6rem;
-    }
+      }
 }
 
 @media all and (max-width: 480px){

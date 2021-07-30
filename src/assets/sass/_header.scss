@@ -1,26 +1,24 @@
-.searchPane.noOverFlow{
+.searchPane.noOverFlow {
     overflow: hidden;
-}
-
-.topNav.modalUp{
-    z-index: unset;
-}
-
-.topNav {
-    .marginMe{
-        margin: 0 5px
+  }
+  
+  .topNav {
+    &.modalUp {
+      z-index: unset;
     }
-}
-
-.topNav{
+  
+    .marginMe {
+      margin: 0 5px;
+    }
+  
     z-index: 2;
-    display:block;
-}
-
-.monoton-font{
+    display: block;
+  }
+  
+  .monoton-font {
     font-family: 'Playfair Display SC', serif;
-}
-
-.navbar {
+  }
+  
+  .navbar {
     background: none;
-}
+  }

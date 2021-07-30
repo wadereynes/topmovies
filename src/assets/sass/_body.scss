@@ -15,11 +15,9 @@ html{
     cursor: context-menu;
 }
 
-.itemBox:hover {
-    .favs{
-        display: block;
-    }
-}
+.itemBox:hover .favs {
+    display: block;
+  }
 
 .intro-animated{
     -webkit-animation: pulse 3.2s forwards infinite ease-in-out;
